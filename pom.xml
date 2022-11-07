@@ -27,7 +27,7 @@
     <groupId>org.wso2.carbon.identity.outbound.auth.google</groupId>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>identity-outbound-auth-google</artifactId>
-    <version>5.2.2</version>
+    <version>6.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>WSO2 Carbon - Google Authenticator Feature Aggregator Module</name>
     <description>
@@ -39,7 +39,7 @@
         <url>https://github.com/wso2-extensions/identity-outbound-auth-google.git</url>
         <developerConnection>scm:git:https://github.com/wso2-extensions/identity-outbound-auth-google.git</developerConnection>
         <connection>scm:git:https://github.com/wso2-extensions/identity-outbound-auth-google.git</connection>
-        <tag>v5.2.2</tag>
+        <tag>v6.0.0-SNAPSHOT</tag>
     </scm>
 
 
@@ -188,10 +188,10 @@
 
         <!-- Identity Outbound auth Google version -->
         <identity.outbound.auth.google.exp.version>${project.version}</identity.outbound.auth.google.exp.version>
-        <carbon.identity.authenticator.oidc.imp.pkg.version.range>[5.0.0, 6.0.0)</carbon.identity.authenticator.oidc.imp.pkg.version.range>
+        <carbon.identity.authenticator.oidc.imp.pkg.version.range>[6.0.0, 7.0.0)</carbon.identity.authenticator.oidc.imp.pkg.version.range>
         <!--Carbon Identity Framework Version-->
-        <carbon.identity.framework.version>5.5.0</carbon.identity.framework.version>
-        <carbon.identity.framework.package.import.version.range>[5.0.0, 6.0.0)</carbon.identity.framework.package.import.version.range>
+        <carbon.identity.framework.version>6.0.0-SNAPSHOT</carbon.identity.framework.version>
+        <carbon.identity.framework.package.import.version.range>[6.0.0, 7.0.0)</carbon.identity.framework.package.import.version.range>
 
         <!-- Servlet API -->
         <imp.pkg.version.javax.servlet>[2.6.0, 3.0.0)</imp.pkg.version.javax.servlet>
